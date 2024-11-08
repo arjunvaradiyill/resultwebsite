@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     text-align: center;
     padding: 10px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .header-logo {
@@ -34,6 +35,7 @@ body {
 .header-text {
     text-align: center;
     font-size: 1em;
+    flex: 1;
 }
 
 .header-text h1 {
@@ -112,4 +114,68 @@ body {
     color: red;
     font-weight: bold;
     margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Stack header elements vertically on smaller screens */
+    .header-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo {
+        width: 80px;
+        margin: 10px 0;
+    }
+
+    .header-text h1 {
+        font-size: 1.2em;
+    }
+
+    .header-text p {
+        font-size: 0.9em;
+    }
+
+    /* Adjust input and button size */
+    #roll-number {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Adjust the width of the result display section */
+    .result-display, .content-section {
+        padding: 10px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .header-logo {
+        width: 60px;
+    }
+
+    .header-text h1 {
+        font-size: 1em;
+    }
+
+    .header-text p {
+        font-size: 0.8em;
+    }
+
+    /* Reduce padding for smaller screens */
+    .result-item {
+        padding: 15px;
+    }
+
+    .download-btn {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
 }
