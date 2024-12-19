@@ -3,37 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results - Darul Falah Entrance Academy</title>
+    <title>Progress Card - Darul Falah Entrance Academy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Header Banner -->
     <div class="header-banner">
-        <img src="logo.jpg" alt="Left Logo" class="header-logo">
+        <img src="DFEALOGO.png" alt="School Logo" class="header-logo">
         <div class="header-text">
-            <h1>DARUL FALAH ENTRANCE ACADEMY</h1>
-            <p>Poopalam, Perinthalmanna</p>
-            <p>Unit Test (Class XII) Result 2024 - 2025</p>
+            <h1>DARUL FALAH ENGLISH SCHOOL</h1>
+            <p>POOPLAM, PERINTHALMANNA</p>
+            <p>Progress Card - Class XI 2024 - 2025</p>
         </div>
-        <img src="logo.jpg" alt="Right Logo" class="header-logo">
     </div>
 
     <!-- Main Content Section -->
-    <main class="content-section">
-        <h1>Check Your Exam Results</h1>
+    <section class="content-section">
+        <h1>Enter Your Roll Number and Get Your Progress Card</h1>
         
-        <section class="search-section">
+        <div class="search-section">
             <label for="roll-number">Enter Roll Number:</label>
             <input type="text" id="roll-number" placeholder="Enter your roll number">
-            <button class="search-btn" onclick="fetchResult()">Get Result</button>
-        </section>
+            <button class="search-btn" onclick="fetchProgressCard()">GetProgress Card</button>
+        </div>
 
-        <section class="result-display" id="result-display">
-            <!-- Result will be displayed here -->
-        </section>
-    </main>
+        <!-- Result Display Section -->
+        <div class="result-display" id="result-display">
+            <!-- Result will be shown here -->
+        </div>
+    </section>
 
     <script src="script.js"></script>
+
 </body>
 </html>

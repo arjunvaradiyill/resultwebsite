@@ -21,15 +21,19 @@ body {
     margin: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center logo and text */
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    background-color: #fff;
+    border-radius: 8px; /* Slight rounding of the edges for aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for header */
 }
 
 .header-logo {
-    width: 100px;
+    width: 180px; /* Increased logo size */
     height: auto;
+    margin-right: 20px; /* Adds space between logo and text */
 }
 
 .header-text {
@@ -39,14 +43,16 @@ body {
 }
 
 .header-text h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #2d2d2d; /* Dark color for better contrast */
 }
 
 .header-text p {
     font-size: 1em;
-    margin: 2px 0;
+    margin: 5px 0;
+    color: #555; /* Lighter text color for secondary info */
 }
 
 /* Main Content Section */
@@ -57,6 +63,12 @@ body {
     width: 100%;
 }
 
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Search Section */
 .search-section {
     margin: 20px 0;
 }
@@ -65,6 +77,8 @@ body {
     padding: 10px;
     width: 200px;
     margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .search-btn {
@@ -125,12 +139,12 @@ body {
     }
 
     .header-logo {
-        width: 80px;
-        margin: 10px 0;
+        width: 150px; /* Adjusted size for smaller screens */
+        margin-bottom: 10px; /* Added margin to separate the logo from the text */
     }
 
     .header-text h1 {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .header-text p {
@@ -158,11 +172,11 @@ body {
 @media (max-width: 480px) {
     /* Further adjustments for very small screens */
     .header-logo {
-        width: 60px;
+        width: 120px; /* Further reduced logo size for very small screens */
     }
 
     .header-text h1 {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .header-text p {
