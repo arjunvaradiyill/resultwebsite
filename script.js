@@ -30,7 +30,7 @@ const students = {
     "28": { name: "SHAHLA FIRDAUS", pdf: "https://drive.google.com/file/d/1qu9IVWfTtN8gejxChqPpQ_R8RMQBs8aV/view?usp=drive_link" },
     "29": { name: "WAFA HIND WAFIA K T", pdf: "https://drive.google.com/file/d/1r1IOdNPUHDhFq7cZ0jVw-IGvTesZohZR/view?usp=drive_link" },
     "30": { name: "YUMNA", pdf: "https://drive.google.com/file/d/1SnXfLdDyr-CNavnz_KLJn9lGi2QLJ9bN/view?usp=drive_link" },
-    "31": { name: "ZEHA A M", pdf: "https://drive.google.com/file/d/1H-wJztnovPY2DPHb6ErblnxVIj6smIUM/view?usp=drive_link" }
+    "31": { name: "ZEHA A M", pdf: "https://drive.google.com/file/d/1s2X-r-KkhNM-CVpE0ciVoMJnixE5tdIO/view?usp=drive_link" }
 };
 
 // Function to fetch and display the result based on roll number input
